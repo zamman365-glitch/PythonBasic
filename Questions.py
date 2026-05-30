@@ -522,6 +522,25 @@ else:
     print("Not a Strong Number")"""
 
 
+# palindrome
+"""num=int(input("enter the number"))
+copy=num
+digit=0
+
+while num>0:
+    digit=digit*10+num%10
+    num=num//10
+
+if copy==digit:
+        print("palindrome")
+else:
+        print("not a palindrome")"""
+
+
+
+
+
+    
 
 
 
