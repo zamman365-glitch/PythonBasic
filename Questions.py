@@ -500,6 +500,35 @@
 #                 print(i)
 
 
+# Strong number
+"""num = int(input("Enter a number: "))
+
+temp = num
+sum = 0
+
+while num > 0:
+    digit = num % 10
+
+    fact = 1
+    for i in range(1, digit + 1):
+        fact *= i
+
+    sum += fact
+    num = num // 10
+
+if sum == temp:
+    print("Strong Number")
+else:
+    print("Not a Strong Number")"""
+
+
+
+
+
+
+
+
+
 
 #find duplicates in the elements
 lst = [1,2,3,4,1,2,5]

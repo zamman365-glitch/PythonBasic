@@ -109,11 +109,11 @@
 
 # # return vs print 
 
-# def hello ():
-#     return "how are you "
+"""def hello ():
+    return "how are you "
 
-# print (hello())
-
+print (hello())
+"""
 
 # def agechecker(n):
 #     if n >=18:
@@ -152,13 +152,13 @@
 
 # #recursion 
 
-# def numbers(n):
-#     if n==101:
-#         return "done"
-#     print(n)
-#     numbers(n+1)
+def numbers(n):
+    if n==101:
+        return "done"
+    print(n)
+    numbers(n+1)
 
-# numbers(1)    
+numbers(1)    
 
 
 # #backtracking process 
