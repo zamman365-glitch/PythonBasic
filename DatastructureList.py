@@ -85,8 +85,18 @@ a=[10,20,30,40,50]
 
 
 
+#list comprehension 
+a=[1,2,3,4,5,6,7,8,9,10]
 
 
+# for i in a:
+#     if i%2==0:
+#         b.append(i)
+# print(b)
+
+
+b=[i for i in a if i%2==0]
+print[b]
 
 
 
