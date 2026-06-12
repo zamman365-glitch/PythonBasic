@@ -170,3 +170,20 @@
 #         for i in range(len(seats)):
 #             moves=moves+abs(seats[i]-students[i])
 #         return moves
+
+
+
+#2399. Check distances Between same letters
+class Solution:
+    def checkDistances(self, s: str, distance: List[int]) -> bool:
+        seen = {}
+
+        for i, ch in enumerate(s):
+            if ch in seen:
+                gap = i - seen[ch] - 1
+                if gap != distance[ord(ch) - ord('a')]:
+                    return False
+            else:
+                seen[ch] = i
+
+        return True
