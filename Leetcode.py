@@ -187,3 +187,13 @@ class Solution:
                 seen[ch] = i
 
         return True
+
+
+
+# 2309. Greatest English Letter in Upper and Lower Case
+class Solution:
+    def greatestLetter(self, s: str) -> str:
+        for ch in "ZYXWVUTSRQPONMLKJIHGFEDCBA":
+            if ch.lower() in s and ch.upper() in s:
+                return ch
+        return ""
