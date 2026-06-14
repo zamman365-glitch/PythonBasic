@@ -161,7 +161,7 @@
 
 
 
-#Q 2037
+#Q2037
 # class Solution:
 #     def minMovesToSeat(self, seats: List[int], students: List[int]) -> int:
 #         seats.sort()
@@ -173,27 +173,34 @@
 
 
 
-#2399. Check distances Between same letters
-class Solution:
-    def checkDistances(self, s: str, distance: List[int]) -> bool:
-        seen = {}
+#Q2399. Check distances Between same letters
+# class Solution:
+#     def checkDistances(self, s: str, distance: List[int]) -> bool:
+#         seen = {}
 
-        for i, ch in enumerate(s):
-            if ch in seen:
-                gap = i - seen[ch] - 1
-                if gap != distance[ord(ch) - ord('a')]:
-                    return False
-            else:
-                seen[ch] = i
+#         for i, ch in enumerate(s):
+#             if ch in seen:
+#                 gap = i - seen[ch] - 1
+#                 if gap != distance[ord(ch) - ord('a')]:
+#                     return False
+#             else:
+#                 seen[ch] = i
 
-        return True
+#         return True
 
 
 
-# 2309. Greatest English Letter in Upper and Lower Case
-class Solution:
-    def greatestLetter(self, s: str) -> str:
-        for ch in "ZYXWVUTSRQPONMLKJIHGFEDCBA":
-            if ch.lower() in s and ch.upper() in s:
-                return ch
-        return ""
+# Q2309. Greatest English Letter in Upper and Lower Case
+# class Solution:
+#     def greatestLetter(self, s: str) -> str:
+#         for ch in "ZYXWVUTSRQPONMLKJIHGFEDCBA":
+#             if ch.lower() in s and ch.upper() in s:
+#                 return ch
+#         return ""
+
+
+#Q58. Length of Last Word
+# word=s.strip().split()
+# return (s.word([-1]))
+# strip= Remove extra spaces from the beginning and end using strip().
+# split=Split the string into words using split()

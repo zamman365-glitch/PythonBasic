@@ -84,6 +84,14 @@
 # print(digit)
 
 
+s = ["h","e","l","l","o"]
+digit=""
+for i in s[::-1]:
+    digit=digit+i
+print(digit)
+    
+s.reverse()
+
 #  37) Check string is Pallindrome or not**
 # def pailndrome(s):
     
@@ -122,3 +130,8 @@
 # for i in a [::-1]:
 #     print(i)
 
+
+# word=s.strip().split()
+# return (s.word([-1]))
+# strip= Remove extra spaces from the beginning and end using strip().
+# split=Split the string into words using split()
