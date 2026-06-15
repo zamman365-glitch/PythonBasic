@@ -537,18 +537,6 @@ else:
         print("not a palindrome")"""
 
 
-
-
-
-    
-
-
-
-
-
-
-
-
 #find duplicates in the elements
 lst = [1,2,3,4,1,2,5]
 

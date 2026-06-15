@@ -135,3 +135,10 @@ s.reverse()
 # return (s.word([-1]))
 # strip= Remove extra spaces from the beginning and end using strip().
 # split=Split the string into words using split()
+
+
+#python mei replace bhi ho skta hai
+#return address.replace('.','[.]')
+# just like that .replace('joh replace karna hai', 'jiske saath replace karna hai)
+
+

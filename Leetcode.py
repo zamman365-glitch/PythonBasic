@@ -204,3 +204,10 @@
 # return (s.word([-1]))
 # strip= Remove extra spaces from the beginning and end using strip().
 # split=Split the string into words using split()
+
+
+#1108
+#class Solution:
+#     def defangIPaddr(self, address: str) -> str:
+#         return address.replace('.','[.]')
+
