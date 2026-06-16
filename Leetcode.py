@@ -211,3 +211,11 @@
 #     def defangIPaddr(self, address: str) -> str:
 #         return address.replace('.','[.]')
 
+#1832 Check if the Sentence Is Pangram
+# class Solution:
+#     def checkIfPangram(self, sentence: str) -> bool:
+#         for ch in 'abcdefghijklmnopqrstuvwxyz':
+#             if ch not in  sentence:
+#                 return False
+#         return True
+        

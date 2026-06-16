@@ -141,4 +141,11 @@ s.reverse()
 #return address.replace('.','[.]')
 # just like that .replace('joh replace karna hai', 'jiske saath replace karna hai)
 
+#1678
+# class Solution:
+#     def interpret(self, command: str) -> str:
+#         return command.replace('()','o').replace('(al)','al')
+
+
+
 
