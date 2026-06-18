@@ -40,11 +40,14 @@ l=[12,"hello",44.5,True,print()]
 # del a # this can delete a entire list
 # print(a)
 
+# a=[10,2,3,4,5,70]
+# del a[-1]
+# print(a)
+
 
 # creating loops on list 
-a=[10,20,30,40,50]
-
-# #based on values 
+# a=[10,20,30,40,50]
+#based on values 
 # for i in a:
 #     print(i)
 
@@ -70,6 +73,11 @@ a=[10,20,30,40,50]
 #     l.append(i)
 # print(l) 
 
+# l=[]
+# for i in range(10,51,10): # for i in range(start,stop,step)
+#     l.append(i)
+# print(l)
+
 
 # insert 
 # a=[10,20,40,50]
@@ -77,16 +85,24 @@ a=[10,20,30,40,50]
 # print (a)
 
 # # clear
-# a=[10,20,30,40,50]
-# saved = a.pop(0) # pop use index for delete
-# a.remove(10) # and remove use values
-# print(a)
-# print(saved)
+a=[10,20,30,40,50]
+saved = a.pop(0) # pop use index for delete
+a.remove(10) # and remove use values
+print(a)
+print(saved)
+
+
+#method in list
+# .append()
+# .remove()
+# .insert()
+# .pop()
+
 
 
 
 #list comprehension 
-a=[1,2,3,4,5,6,7,8,9,10]
+# a=[1,2,3,4,5,6,7,8,9,10]
 
 
 # for i in a:
@@ -95,8 +111,8 @@ a=[1,2,3,4,5,6,7,8,9,10]
 # print(b)
 
 
-b=[i for i in a if i%2==0]
-print[b]
+# b=[i for i in a if i%2==0]
+# print[b]
 
 
 
